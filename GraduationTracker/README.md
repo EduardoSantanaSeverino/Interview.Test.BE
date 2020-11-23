@@ -1,6 +1,6 @@
 ###Refactor Xello Backend Engineer Coding Challenge
 Using Clean Structure and SOLID Principles.
-The project is layout in layers. So we can easily replace one layer like we do with lego pieces.
+The project is layedout in layers. So we can easily replace one layer as we do with lego pieces.
 
 ####Domain Project
 

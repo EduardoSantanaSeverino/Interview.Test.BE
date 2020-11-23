@@ -71,13 +71,5 @@ namespace GraduationTracker.Application.UnitTests
             Assert.AreEqual(studentByGet.Id , studentByFind.Id);
             Assert.AreEqual(studentByGet.Courses.Count , studentByFind.Courses.Count);
         }
-        
-        
-        /*
-  Course {Id = , Name =  Credits =  1},
-  Course {Id = , Name =  Credits =  1},
-  Course {Id = , Name =  Credits =  1},
-  Course {Id = , Name = ", Credits =  1},
-         */
     }
 }
