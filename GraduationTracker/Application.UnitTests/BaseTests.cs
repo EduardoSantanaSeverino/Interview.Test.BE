@@ -13,8 +13,8 @@ namespace GraduationTracker.Application.UnitTests
         protected readonly IRepository<IStudent> _studentRepository;
         protected readonly IRepository<IDiploma> _diplomaRepository;
         protected readonly IGraduationTracker _graduationTracker;
-        
-        public BaseTests()
+
+        protected BaseTests()
         {
             _provider = DependencyInjection.TestingProvider();
             _studentRepository = _provider.GetRequiredService<IRepository<IStudent>>();

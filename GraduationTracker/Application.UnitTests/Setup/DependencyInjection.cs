@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace GraduationTracker.Application.UnitTests.Setup
 {
-    public class DependencyInjection
+    public static class DependencyInjection
     {
         public static IServiceProvider TestingProvider()
         {
